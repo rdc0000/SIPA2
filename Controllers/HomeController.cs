@@ -28,6 +28,12 @@ namespace SIPA.Controllers
 
             return View();
         }
+        public IActionResult Tablas()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
 
         public IActionResult Privacy()
         {
